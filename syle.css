@@ -1,0 +1,92 @@
+/***********SELECTORS***********/
+
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  background-color: rgb(25, 25, 25);
+}
+
+h1 {
+  margin: 6rem auto 0 auto;
+  font-size: 6rem;
+  font-family: "Concert One", sans-serif;
+  font-weight: 500;
+  color: rgb(227, 227, 227);
+  line-height: 1;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: rgb(226, 226, 226);
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+/***********TOP CONTAINER***********/
+
+.top-container {
+  position: relative;
+  height: 55rem;
+  background-color: rgb(25, 25, 25);
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  height: 150px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 30%;
+  height: 50px;
+}
+
+.mountain {
+  height: 50%;
+}
+
+/***********MID CONTAINER***********/
+
+.middle-container {
+  position: relative;
+  background-color: rgb(180, 108, 108);
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+}
+
+/* images*/
+
+.profile img {
+  height: 300px;
+  border-radius: 10%;
+  margin-top: 30px;
+}
+
+.skills img {
+  height: 240px;
+}
+
+.skills .disc {
+  height: 210px;
+}
+
+/***********BOT CONTAINER***********/
+
+.bottom-container {
+  background-color: rgb(116, 116, 209);
+}
